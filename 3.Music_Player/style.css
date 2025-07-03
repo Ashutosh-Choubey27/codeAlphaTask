@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.musicPlayer
+{
+    background: rgb(208, 177, 212);
+    width: 360px;
+    padding: 25px 35px;
+    text-align: center;   
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+nav .circle
+{
+    border-radius: 50%;
+    width: 40px;
+    height:40px;
+    line-height: 40px;
+    background: #000000db;
+    color: #f53192;
+    box-shadow: 0 5px 10px rgba(191, 99, 18, 0.572);;
+}
+
+.song-img
+{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 6px solid #ffffff4e;
+    /* box-shadow:  4px 4px rgba(161, 11, 167, 0.404); */
+}
+
+.musicPlayer h3
+{
+    font-weight: 400;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    color: #000000;
+}
+
+.musicPlayer p{
+    font-size: 18px;
+    color: #000000;
+}
+
+#progress
+{
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4px;
+    background: #f53192;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 40px 0; 
+}
+
+#progress::-webkit-slider-thumb
+{
+    -webkit-appearance: none;
+    background:#f53192;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 10px solid #ffffffb1;
+    box-shadow: 0 5px 5px rgb(255,26,26,0.22);
+}
+
+.controls
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls div
+{
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    margin: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #f3970c;
+    box-shadow: 0 10px 20px rgba(255, 26,26,0.22);
+    cursor: pointer;
+}
+
+.controls div:nth-child(2)
+{
+    transform: scale(1.4);
+    background-color: #000000;
+    color: #128ae5;
+
+}
