@@ -15,7 +15,7 @@ A responsive image gallery built using **HTML**, **CSS**, and **JavaScript**.
 - Responsive grid layout
 
 📂 Folder: `imageGallery`  
-🔗 [Live Demo](https://ashutosh-choubey27.github.io/codeAlphaTask/imageGallery/)
+🔗 [Live Demo](https://ashutosh-choubey27.github.io/codeAlphaTask/1.Image_Gallery/)
 
 ---
 
@@ -29,7 +29,7 @@ A basic calculator app that performs arithmetic operations.
 - Modern UI using CSS grid
 
 📂 Folder: `calculator`  
-🔗 [Live Demo](https://ashutosh-choubey27.github.io/codeAlphaTask/calculator/)
+🔗 [Live Demo](https://ashutosh-choubey27.github.io/codeAlphaTask/2.Calculator/)
 
 ---
 
@@ -42,7 +42,7 @@ A simple music player UI project built using **HTML**, **CSS**, and **JavaScript
 - Minimalist UI
 
 📂 Folder: `musicPlayerApp`  
-🔗 [Live Demo](https://ashutosh-choubey27.github.io/codeAlphaTask/musicPlayerApp/)
+🔗 [Live Demo](https://ashutosh-choubey27.github.io/codeAlphaTask/3.Music_Player/)
 
 ---
 
